@@ -1,2 +1,49 @@
-# AI-Sales-Automation-System
-End-to-end AI sales automation using n8n, OpenAI, APIs, CRM integrations, and workflow orchestration.
+# AI Sales Automation System
+
+An end-to-end AI-powered sales automation platform built with **n8n, OpenAI APIs, REST APIs, and workflow orchestration**.
+
+## Overview
+
+This project automates the complete customer journey from first inquiry to appointment booking while maintaining CRM synchronization, conversation memory, intelligent lead routing, and operational reporting.
+
+## Core Capabilities
+
+* 24/7 AI customer conversations
+* Intelligent lead qualification
+* Context-aware conversation memory
+* Automated pricing delivery
+* Appointment booking automation
+* CRM synchronization
+* Slack notifications for hot and warm leads
+* Automated follow-up sequences
+* Daily operational reporting
+
+## Tech Stack
+
+* n8n
+* OpenAI API
+* REST APIs
+* Webhooks
+* Google Sheets
+* Slack
+* JavaScript (Automation)
+
+## Why This Project Matters
+
+This system was designed as a **production-style business automation platform**, not a tutorial clone. The focus was on solving real operational problems through modular workflow architecture, scalable integrations, and maintainable automation design.
+
+## Architecture
+
+The system is organized into independent workflow modules:
+
+1. Lead Capture
+2. AI Qualification
+3. Conversation Memory
+4. CRM Synchronization
+5. Appointment Booking
+6. Slack Alerting
+7. Follow-up Automation
+8. Daily Reporting
+
+This modular structure allows individual components to be updated, replaced, or extended without rebuilding the entire system.
+
